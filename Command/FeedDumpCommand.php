@@ -50,7 +50,7 @@ class FeedDumpCommand extends Command
     /**
      * {@inheritdoc}
      */
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setDescription('Generate (dump) a feed in an XML file')

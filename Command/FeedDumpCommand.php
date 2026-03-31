@@ -39,7 +39,7 @@ class FeedDumpCommand extends Command
      */
     private $feedDumpService;
 
-    public function __construct(RouterInterface $router, FeedDumpService $feedDumpService = null)
+    public function __construct(RouterInterface $router, ?FeedDumpService $feedDumpService = null)
     {
         $this->router = $router;
         $this->feedDumpService = $feedDumpService;
